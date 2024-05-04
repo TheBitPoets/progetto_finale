@@ -40,3 +40,12 @@ La pagina della lista di tutte le domande prevede per ogni elemento della lista 
 <p align="center">
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/edit.jpg" width="300" height="400">
 </p>
+
+## How to run
+Per installare le dipendenze ([express.js](https://expressjs.com/) e [sqlite3](https://www.npmjs.com/package/sqlite3)) lanciare `npm install`. Al termine dell'installazione è necessario inizializzare il database con `node create_db.js`. Infine, lanciare il server con `node server.js`
+
+```
+npm install
+node create_db.js
+node server.js
+```
