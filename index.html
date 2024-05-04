@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TOP QUESTIONS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: purple;
+    }
+
+    .jumbotron {
+      background-color: gold;
+    }
+  </style>
+</head>
+<body onload="getRandomQuestion()"> <!-- Call the function on page load -->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">TOP QUESTIONS</h1>
+    <p class="lead">Here are some common oral questions often asked</p>
+    <hr class="my-4">
+    <h3 id="question"></h3>
+    <p id="answer"></p>
+    <button class="btn btn-primary" onclick="getRandomQuestion()">Get one more question</button>
+    <a href="addquestion" class="btn btn-success">Add a Question</a>
+    <a href="listquestions" class="btn btn-info">List all Questions</a>
+  </div>
+
+  <script>
+  function getRandomQuestion() {
+      fetch('/random')
+        .then(response => response.json())
+        .then(data => {
+          const randomQuestion = document.getElementById('question');
+          const random = document.getElementById('answer');
+          randomQuestion.textContent = data[0].question;
+          randomAnswer.textContent = data[0].answer;
+        })
+        .catch(error => console.log(error));
+    }
+  </script>
+
+  <footer>
+    <Center>
+    <p><font color="white">&copy; ITET Leonardo da Vinci (5BINF 23/24)</font></p>
+    </Center>
+  </footer>
+</body>
+</html>
