@@ -13,7 +13,7 @@ Il candidato dovrebbe dimostrare di essere in grado di progettare __una semplice
 3. __DELETE__: per elimnare una risorsa
 4. __PUT__: per aggiornare una risorsa
 
-L'interfaccia grafica dovewbbw essere realizzata in __HTML/CSS/Javascript__ ed essere in grado di interagire senza errori con il server.
+L'interfaccia grafica dovrebbe essere realizzata in __HTML/CSS/Javascript__ ed essere in grado di interagire senza errori con il server.
 
 ## Il progetto d'esempio
 Questo progetto implementa una semplice applicazione per prendere nota delle domande richieste dalla commissione durante le prove orali.
