@@ -31,7 +31,7 @@ La pagina di aggiunta di una domanda presenta un semplice form HTML dove aggiung
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/add.jpg" width="300" height="400">
 </p>
 
-La pagina della lista di tutte le domande prevede per ogni elemento della lista due bottoni per eliminare ed aggiornare la domanda corrente. CLiccando sul bottone edit si apre una finestra dove sarà possibile modificare i dati precedentemente aggiunti. La domanda è eliminata cliccando sul bottono delete.
+La pagina della lista di tutte le domande prevede per ogni elemento della lista due bottoni per eliminare ed aggiornare la domanda corrente. Cliccando sul bottone edit si apre una finestra dove sarà possibile modificare i dati precedentemente inseriti. La domanda è eliminata cliccando sul bottone delete.
 
 <p align="center">
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/list.jpg" width="300" height="400">
