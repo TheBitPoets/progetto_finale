@@ -31,7 +31,7 @@
         .then(response => response.json())
         .then(data => {
           const randomQuestion = document.getElementById('question');
-          const random = document.getElementById('answer');
+          const randomAnswer = document.getElementById('answer');
           randomQuestion.textContent = data[0].question;
           randomAnswer.textContent = data[0].answer;
         })
