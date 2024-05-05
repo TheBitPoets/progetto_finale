@@ -49,3 +49,5 @@ npm install
 node create_db.js
 node server.js
 ```
+
+Una volta startato il server far puntare il proprio browser al seguente link: http://localhost:8888 
