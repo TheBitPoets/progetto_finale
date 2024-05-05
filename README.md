@@ -16,10 +16,12 @@ Il candidato dovrebbe dimostrare di essere in grado di progettare __una semplice
 L'interfaccia grafica dovrebbe essere realizzata in __HTML/CSS/Javascript__ ed essere in grado di interagire senza errori con il server.
 
 ## Il progetto d'esempio
+<p align="justify">
 Questo progetto implementa una semplice applicazione per prendere nota delle domande richieste dalla commissione durante le prove orali.
-La HOME (immagine sotto) presenta tre bottoni. Il bottone centrale permette di accedere alla pagina per __l'aggiunta di una nuova domanda__,
-il bottone a destra porta alla pagina che presenta __la lista di tutte le domande__ di cui si è preso nota (le domande in questa pagina possono
-essere eliminate o modificate). Il bottone di sinistra preleva __una domanda a caso e la mostra sopra i bottoni__ (da usare per testare la propria preparazione)
+La HOME (immagine sotto) presenta tre bottoni. Il bottone centrale permette di accedere alla pagina per <b>l'aggiunta di una nuova domanda</b>,
+il bottone a destra porta alla pagina che presenta <b>la lista di tutte le domande</b> di cui si è preso nota (le domande in questa pagina possono
+essere eliminate o modificate). Il bottone di sinistra preleva <b>una domanda a caso e la mostra sopra i bottoni</b> (da usare per testare la propria preparazione)
+</p>
 
 <p align="center">
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/home.jpg" width="300" height="400">
@@ -31,7 +33,9 @@ La pagina di aggiunta di una domanda presenta un semplice form HTML dove aggiung
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/add.jpg" width="300" height="400">
 </p>
 
+<p align="justify">
 La pagina della lista di tutte le domande prevede per ogni elemento della lista due bottoni per eliminare ed aggiornare la domanda corrente. Cliccando sul bottone edit si apre una finestra dove sarà possibile modificare i dati precedentemente inseriti. La domanda è eliminata cliccando sul bottone delete.
+</p>
 
 <p align="center">
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/list.jpg" width="300" height="400">
