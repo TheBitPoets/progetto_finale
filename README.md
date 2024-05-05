@@ -4,16 +4,20 @@
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/progetto_finale.gif" width="500" height="300" align="center">
 </p>
 
+<p align="justify">
 Questo repository contiene un esempio di progetto presentabile al colloquio orale.
 
 Il candidato dovrebbe dimostrare di essere in grado di progettare __una semplice applicazione web__ completa di server ed interfaccia grafica. L'applicazione lato back-end dovrebbe esporre __quattro metodi HTTP__:
+</p>
 
 1. __GET__: per recuperare una risorsa o la lista delle risorse
 2. __POST__: per aggiungere una risorsa
 3. __DELETE__: per elimnare una risorsa
 4. __PUT__: per aggiornare una risorsa
 
-L'interfaccia grafica dovrebbe essere realizzata in __HTML/CSS/Javascript__ ed essere in grado di interagire senza errori con il server.
+<p align="justify">
+L'interfaccia grafica dovrebbe essere realizzata in <b>HTML/CSS/Javascript</b> ed essere in grado di interagire senza errori con il server.
+</p>
 
 ## Il progetto d'esempio
 <p align="justify">
@@ -27,7 +31,9 @@ essere eliminate o modificate). Il bottone di sinistra preleva <b>una domanda a 
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/home.jpg" width="300" height="400">
 </p>
 
+<p align="justify">
 La pagina di aggiunta di una domanda presenta un semplice form HTML dove aggiungere la domanda, la risposta ed un punteggio relativo alla qualità della risposta data dal candidato secondo la commissione
+</p>
 
 <p align="center">
 <img src="https://github.com/kinderp/progetto_finale/blob/main/images/add.jpg" width="300" height="400">
